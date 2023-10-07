@@ -9,7 +9,7 @@
 // }
 
 // do while loop
-let n = prompt("Enter the value of n")
+let n = 7
 n = Number.parseInt(n)
 let i = 0;
 do{
