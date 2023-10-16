@@ -6,7 +6,7 @@ let num = [3, 54, 1, 2, 4]
 // only work on array element
 let arr = [];
 num.forEach((element, index) => {
-  console.log(index,' -> ', element);
+  console.log(index, ' -> ', element);
   arr.push(element * 2);
 })
 
@@ -18,11 +18,11 @@ let arr1 = Array.from(name)
 console.log(arr1)
 
 // for... of
-for(let i of num){
+for (let i of num) {
   console.log(i)
 } //print element
 // for....in
-for(let item in num){
+for (let item in num) {
   console.log(item)
-  console.log(num[item])
+
 } //print index
